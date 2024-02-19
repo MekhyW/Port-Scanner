@@ -1,0 +1,280 @@
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.0 204480  7028 ?        Ss    2021 114:20 /lib/systemd/systemd --system --deserialize 27
+root         2  0.0  0.0      0     0 ?        S     2021   0:29 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S     2021  16:07 [ksoftirqd/0]
+root         5  0.0  0.0      0     0 ?        S<    2021   0:00 [kworker/0:0H]
+root         7  0.1  0.0      0     0 ?        S     2021 1148:57 [rcu_sched]
+root         8  0.0  0.0      0     0 ?        S     2021   0:00 [rcu_bh]
+root         9  0.0  0.0      0     0 ?        S     2021   1:32 [migration/0]
+root        10  0.0  0.0      0     0 ?        S<    2021   0:00 [lru-add-drain]
+root        11  0.0  0.0      0     0 ?        S     2021   2:43 [watchdog/0]
+root        12  0.0  0.0      0     0 ?        S     2021   0:00 [cpuhp/0]
+root        13  0.0  0.0      0     0 ?        S     2021   0:00 [cpuhp/1]
+root        14  0.0  0.0      0     0 ?        S     2021   2:45 [watchdog/1]
+root        15  0.0  0.0      0     0 ?        S     2021   2:13 [migration/1]
+root        16  0.0  0.0      0     0 ?        S     2021  11:35 [ksoftirqd/1]
+root        18  0.0  0.0      0     0 ?        S<    2021   0:00 [kworker/1:0H]
+root        19  0.0  0.0      0     0 ?        S     2021   0:00 [cpuhp/2]
+root        20  0.0  0.0      0     0 ?        S     2021   2:29 [watchdog/2]
+root        21  0.0  0.0      0     0 ?        S     2021   1:46 [migration/2]
+root        22  0.0  0.0      0     0 ?        S     2021   7:54 [ksoftirqd/2]
+root        24  0.0  0.0      0     0 ?        S<    2021   0:00 [kworker/2:0H]
+root        25  0.0  0.0      0     0 ?        S     2021   0:00 [cpuhp/3]
+root        26  0.0  0.0      0     0 ?        S     2021   2:21 [watchdog/3]
+root        27  0.0  0.0      0     0 ?        S     2021   2:00 [migration/3]
+root        28  0.0  0.0      0     0 ?        S     2021   6:50 [ksoftirqd/3]
+root        30  0.0  0.0      0     0 ?        S<    2021   0:00 [kworker/3:0H]
+root        31  0.0  0.0      0     0 ?        S     2021   0:00 [cpuhp/4]
+root        32  0.0  0.0      0     0 ?        S     2021   2:27 [watchdog/4]
+root        33  0.0  0.0      0     0 ?        S     2021   1:50 [migration/4]
+root        34  0.0  0.0      0     0 ?        S     2021  14:03 [ksoftirqd/4]
+root        36  0.0  0.0      0     0 ?        S<    2021   0:00 [kworker/4:0H]
+root        37  0.0  0.0      0     0 ?        S     2021   0:00 [cpuhp/5]
+root        38  0.0  0.0      0     0 ?        S     2021   2:19 [watchdog/5]
+root        39  0.0  0.0      0     0 ?        S     2021   1:50 [migration/5]
+root        40  0.0  0.0      0     0 ?        S     2021   6:15 [ksoftirqd/5]
+root        42  0.0  0.0      0     0 ?        S<    2021   0:00 [kworker/5:0H]
+root        43  0.0  0.0      0     0 ?        S     2021   0:00 [cpuhp/6]
+root        44  0.0  0.0      0     0 ?        S     2021   2:20 [watchdog/6]
+root        45  0.0  0.0      0     0 ?        S     2021   1:51 [migration/6]
+root        46  0.0  0.0      0     0 ?        S     2021   5:51 [ksoftirqd/6]
+root        48  0.0  0.0      0     0 ?        S<    2021   0:00 [kworker/6:0H]
+root        49  0.0  0.0      0     0 ?        S     2021   0:00 [cpuhp/7]
+root        50  0.0  0.0      0     0 ?        S     2021   2:21 [watchdog/7]
+root        51  0.0  0.0      0     0 ?        S     2021   1:34 [migration/7]
+root        52  0.0  0.0      0     0 ?        S     2021   7:45 [ksoftirqd/7]
+root        54  0.0  0.0      0     0 ?        S<    2021   0:00 [kworker/7:0H]
+root        55  0.0  0.0      0     0 ?        S     2021   0:00 [kdevtmpfs]
+root        56  0.0  0.0      0     0 ?        S<    2021   0:00 [netns]
+root        57  0.0  0.0      0     0 ?        S     2021   2:23 [khungtaskd]
+root        58  0.0  0.0      0     0 ?        S     2021   0:00 [oom_reaper]
+root        59  0.0  0.0      0     0 ?        S<    2021   0:00 [writeback]
+root        60  0.0  0.0      0     0 ?        S     2021   0:00 [kcompactd0]
+root        62  0.0  0.0      0     0 ?        SN    2021   0:00 [ksmd]
+root        63  0.0  0.0      0     0 ?        SN    2021   6:03 [khugepaged]
+root        64  0.0  0.0      0     0 ?        S<    2021   0:00 [crypto]
+root        65  0.0  0.0      0     0 ?        S<    2021   0:00 [kintegrityd]
+root        66  0.0  0.0      0     0 ?        S<    2021   0:00 [bioset]
+root        67  0.0  0.0      0     0 ?        S<    2021   0:00 [kblockd]
+root        68  0.0  0.0      0     0 ?        S<    2021   0:00 [devfreq_wq]
+root        69  0.0  0.0      0     0 ?        S<    2021   0:00 [watchdogd]
+root        71  0.0  0.0      0     0 ?        S     2021   0:00 [kswapd0]
+root        72  0.0  0.0      0     0 ?        S<    2021   0:00 [vmstat]
+root        84  0.0  0.0      0     0 ?        S<    2021   0:00 [kthrotld]
+root        85  0.0  0.0      0     0 ?        S<    2021   0:00 [ipv6_addrconf]
+root       133  0.0  0.0      0     0 ?        S<    2021   0:00 [bioset]
+root       135  0.0  0.0      0     0 ?        S<    2021   0:00 [bioset]
+root       136  0.0  0.0      0     0 ?        S<    2021   0:00 [bioset]
+root       137  0.0  0.0      0     0 ?        S<    2021   0:00 [bioset]
+root       138  0.0  0.0      0     0 ?        S<    2021   0:00 [bioset]
+root       139  0.0  0.0      0     0 ?        S<    2021   0:00 [bioset]
+root       140  0.0  0.0      0     0 ?        S<    2021   0:00 [bioset]
+root       141  0.0  0.0      0     0 ?        S<    2021   0:00 [bioset]
+root       171  0.0  0.0      0     0 ?        S<    2021   0:00 [ata_sff]
+root       172  0.0  0.0      0     0 ?        S     2021   0:00 [scsi_eh_0]
+root       173  0.0  0.0      0     0 ?        S<    2021   0:00 [scsi_tmf_0]
+root       174  0.0  0.0      0     0 ?        S     2021   0:00 [scsi_eh_1]
+root       175  0.0  0.0      0     0 ?        S<    2021   0:00 [scsi_tmf_1]
+root       177  0.0  0.0      0     0 ?        S     2021   0:00 [scsi_eh_2]
+root       178  0.0  0.0      0     0 ?        S<    2021   0:00 [scsi_tmf_2]
+root       181  0.0  0.0      0     0 ?        S<    2021   0:00 [bioset]
+www-data   326  0.0  0.0 4146444 6404 ?        Sl   ago30   6:41 ./cron.php -e0.0.0.0 -p34103
+root       438  0.0  0.0      0     0 ?        S<    2021  15:51 [kworker/0:1H]
+root       439  0.0  0.0      0     0 ?        S<    2021   0:14 [kworker/5:1H]
+root       441  0.0  0.0      0     0 ?        S<    2021   0:12 [kworker/6:1H]
+root       467  0.0  0.0      0     0 ?        S     2021  52:56 [jbd2/sda2-8]
+root       468  0.0  0.0      0     0 ?        S<    2021   0:00 [ext4-rsv-conver]
+root       489  0.0  0.0      0     0 ?        S<    2021   0:20 [kworker/3:1H]
+root       494  0.3  0.1 137680 61772 ?        Ss    2021 3239:06 /lib/systemd/systemd-journald
+root       501  0.0  0.0      0     0 ?        S     2021   0:00 [kauditd]
+root       505  0.0  0.0      0     0 ?        S<    2021   0:16 [kworker/4:1H]
+root       509  0.0  0.0      0     0 ?        S<    2021   0:27 [kworker/2:1H]
+root       519  0.0  0.0      0     0 ?        S<    2021   0:44 [kworker/1:1H]
+www-data   532  0.0  0.0 277048  1148 ?        S    ago30   0:27 ./cron.php -e0.0.0.0 -p9946
+root       589  0.0  0.0      0     0 ?        S<    2021  14:53 [kworker/7:1H]
+root       624  0.0  0.0      0     0 ?        S<    2021   0:00 [ttm_swap]
+root       639  0.0  0.0      0     0 ?        S<    2021   0:00 [edac-poller]
+root       655  0.0  0.0      0     0 ?        S     2021   0:00 [jbd2/sda1-8]
+root       656  0.0  0.0      0     0 ?        S<    2021   0:00 [ext4-rsv-conver]
+root       677  0.0  0.0   4204  1296 ?        Ss    2021   0:00 /usr/sbin/acpid
+message+   680  0.0  0.0  45272  3992 ?        Ss    2021  37:22 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+root       691  0.0  0.0  46468  4780 ?        Ss    2021  18:40 /lib/systemd/systemd-logind
+root       847  0.0  0.0  12880  1744 tty1     Ss+   2021   0:00 /sbin/agetty --noclear tty1 linux
+root      1611  0.0  0.0  96408 27844 ?        S    fev02   0:00 /usr/bin/perl /usr/share/webmin/miniserv.pl /etc/webmin/miniserv.conf
+root      1828  0.0  0.0  96804 30056 ?        Ss   jan21 195:49 /usr/bin/perl /usr/share/webmin/miniserv.pl /etc/webmin/miniserv.conf
+root      1960  0.0  0.0 317132 12260 ?        Ssl   2021   5:38 /usr/lib/packagekit/packagekitd
+root      2496  0.0  0.0  96540 30344 ?        S    mai02   0:00 /usr/bin/perl /usr/share/webmin/miniserv.pl /etc/webmin/miniserv.conf
+root      2797  0.0  0.0  96540 30328 ?        S    abr21   0:00 /usr/bin/perl /usr/share/webmin/miniserv.pl /etc/webmin/miniserv.conf
+root      3167  0.0  0.0      0     0 ?        S    16:57   0:01 [kworker/7:0]
+www-data  5576 57.7  1.2 1176040 379448 ?      R    17:06  34:03 php-fpm: pool www
+root      5766  0.0  0.0  96680 28180 ?        S    jun05   0:00 /usr/bin/perl /usr/share/webmin/miniserv.pl /etc/webmin/miniserv.conf
+root      6024  0.0  0.0  96408 29780 ?        S    mar04   0:00 /usr/bin/perl /usr/share/webmin/miniserv.pl /etc/webmin/miniserv.conf
+www-data  6062  0.0  0.0 4146156 5436 ?        Sl   ago30   5:07 ./cron.php -e0.0.0.0 -p15328
+root      6198  0.0  0.0  99352  6940 ?        Ss   17:07   0:00 sshd: root@pts/0
+root      6204  0.0  0.0  56404  5352 ?        Ss   17:07   0:00 /lib/systemd/systemd --user
+root      6205  0.0  0.0 232064  1700 ?        S    17:07   0:00 (sd-pam)
+root      6211  0.0  0.0      0     0 ?        S<   jan21   0:00 [bioset]
+root      6212  0.0  0.0      0     0 ?        S<   jan21   0:00 [xfsalloc]
+root      6213  0.0  0.0      0     0 ?        S<   jan21   0:00 [xfs_mru_cache]
+root      6216  0.0  0.0  20112  3932 pts/0    Ss+  17:07   0:00 -bash
+root      6218  0.0  0.0      0     0 ?        S    jan21   0:00 [jfsIO]
+root      6219  0.0  0.0      0     0 ?        S    jan21   0:00 [jfsCommit]
+root      6220  0.0  0.0      0     0 ?        S    jan21   0:00 [jfsCommit]
+root      6221  0.0  0.0      0     0 ?        S    jan21   0:00 [jfsCommit]
+root      6222  0.0  0.0      0     0 ?        S    jan21   0:00 [jfsCommit]
+root      6223  0.0  0.0      0     0 ?        S    jan21   0:00 [jfsCommit]
+root      6224  0.0  0.0      0     0 ?        S    jan21   0:00 [jfsCommit]
+root      6225  0.0  0.0      0     0 ?        S    jan21   0:00 [jfsCommit]
+root      6226  0.0  0.0      0     0 ?        S    jan21   0:00 [jfsCommit]
+root      6227  0.0  0.0      0     0 ?        S    jan21   0:00 [jfsSync]
+root      6234  0.0  0.0  63916 16764 ?        Ss   08:33   0:08 /usr/bin/python /usr/bin/supervisord -c /etc/supervisor/supervisord.conf
+sshd      6242  0.0  0.1 593980 33484 ?        Sl   08:33   0:00 /var/www/onlyoffice/documentserver/server/Metrics/metrics ./config/config.js
+sshd      6243  0.0  0.1 571948 42940 ?        Sl   08:33   0:00 /var/www/onlyoffice/documentserver/server/SpellChecker/spellchecker
+sshd      6244  0.0  0.2 919748 69360 ?        Sl   08:33   0:06 /var/www/onlyoffice/documentserver/server/DocService/docservice
+sshd      6245  0.0  0.2 625712 67172 ?        Sl   08:33   0:01 /var/www/onlyoffice/documentserver/server/FileConverter/converter
+root      6258  0.0  0.0      0     0 ?        S<   jan21   0:00 [bioset]
+sshd      6271  0.0  0.1 911104 57116 ?        Sl   08:33   0:01 /var/www/onlyoffice/documentserver/server/SpellChecker/spellchecker /snapshot/server/build/server/SpellChecker/sources/server.js
+sshd      6281  0.0  0.1 711300 56780 ?        Sl   08:33   0:02 /var/www/onlyoffice/documentserver/server/FileConverter/converter /snapshot/server/build/server/FileConverter/sources/convertermaster.js
+root      6404  0.1  0.1 557836 36992 ?        Ss   17:08   0:03 /usr/sbin/apache2 -k start
+zabbix    6816  0.0  0.0 104444  3780 ?        S    jan21   0:00 /usr/sbin/zabbix_agentd -c /etc/zabbix/zabbix_agentd.conf
+zabbix    6817  0.0  0.0 104444  3524 ?        S    jan21  87:38 /usr/sbin/zabbix_agentd: collector [idle 1 sec]
+zabbix    6818  0.0  0.0 104444  5684 ?        S    jan21  54:47 /usr/sbin/zabbix_agentd: listener #1 [waiting for connection]
+zabbix    6819  0.0  0.0 104444  5772 ?        S    jan21  53:51 /usr/sbin/zabbix_agentd: listener #2 [waiting for connection]
+zabbix    6820  0.0  0.0 104444  5800 ?        S    jan21  54:53 /usr/sbin/zabbix_agentd: listener #3 [waiting for connection]
+zabbix    6821  0.0  0.0 104444  4772 ?        S    jan21  31:14 /usr/sbin/zabbix_agentd: active checks #1 [idle 1 sec]
+root      8610  0.0  0.0  96684 30372 ?        S    mai16   0:00 /usr/bin/perl /usr/share/webmin/miniserv.pl /etc/webmin/miniserv.conf
+www-data  8790  0.0  0.0 4149348 8152 ?        Sl   ago30   2:51 ./cron.php -e0.0.0.0 -p19899
+root      9014  0.0  0.2 1046188 83740 ?       Ssl  jan21 148:50 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root      9147  0.0  0.0 364332  3812 ?        Sl   jan21   0:43 /usr/bin/docker-proxy -proto tcp -host-ip 0.0.0.0 -host-port 448 -container-ip 172.17.0.2 -container-port 443
+root      9156  0.0  0.0 110224  6200 ?        Sl   jan21  34:18 containerd-shim -namespace moby -workdir /var/lib/containerd/io.containerd.runtime.v1.linux/moby/141fbed8ed36b187e03ec694399b5e5fefdf67ab960a175a28d6d3942f6eb8de -address /run/containerd/containerd.sock -containerd-binary /usr/bin/containerd -runtime-root /var/run/docker/runtime-runc
+root      9175  0.0  0.0   4624   800 pts/0    Ss+  jan21   0:00 /bin/sh -c /app/ds/run-document-server.sh
+root      9214  0.0  0.0  20344  3684 pts/0    S+   jan21   0:00 /bin/bash /app/ds/run-document-server.sh
+root     10388  0.3  0.0 250244  4420 ?        Ssl  mai21 521:25 /usr/sbin/rsyslogd -n
+root     10681  0.0  0.0  96808 30144 ?        S    ago21   0:00 /usr/bin/perl /usr/share/webmin/miniserv.pl /etc/webmin/miniserv.conf
+www-data 11413  0.0  0.0 4146048 5248 ?        Sl   ago30   2:40 ./cron.php -e0.0.0.0 -p45403
+root     11645  0.0  0.0  45480  3432 ?        Ss   jul01   0:14 /lib/systemd/systemd-udevd
+systemd+ 11760  0.0  0.0 127284  4180 ?        Ssl  jul01   0:18 /lib/systemd/systemd-timesyncd
+mongodb  12003  0.5  0.2 334808 61872 ?        Ssl   2021 2669:01 /usr/bin/mongod --unixSocketPrefix=/run/mongodb --config /etc/mongodb.conf
+root     12190  0.0  0.0  96688 30312 ?        S    mai20   0:00 /usr/bin/perl /usr/share/webmin/miniserv.pl /etc/webmin/miniserv.conf
+message+ 12671  0.0  0.0  26984  1108 ?        S    jan21   5:56 /usr/lib/erlang/erts-9.2/bin/epmd -daemon
+www-data 12737 56.8  0.8 765904 266156 ?       R    17:29  20:16 php-fpm: pool www
+root     12840  0.0  0.0 234392 20624 ?        S    abr13   0:01 nginx: master process /usr/sbin/nginx
+message+ 12889  0.0  0.0   4624   804 ?        S    jan21   0:00 /bin/sh /usr/sbin/rabbitmq-server
+root     12980  0.0  0.0  96808 29756 ?        S    ago22   0:00 /usr/bin/perl /usr/share/webmin/miniserv.pl /etc/webmin/miniserv.conf
+message+ 13021  0.0  0.0   4624  1668 ?        S    jan21   0:00 /bin/sh /usr/lib/rabbitmq/bin/rabbitmq-server
+message+ 13151  0.0  0.2 5348636 71840 ?       Sl   jan21 269:43 /usr/lib/erlang/erts-9.2/bin/beam.smp -W w -A 128 -P 1048576 -t 5000000 -stbt db -zdbbl 32000 -K true -S 1:1 -B i -- -root /usr/lib/erlang -progname erl -- -home /var/lib/rabbitmq -- -pa /usr/lib/rabbitmq/lib/rabbitmq_server-3.6.10/ebin -noshell -noinput -s rabbit boot -sname rabbit@141fbed8ed36 -boot start_sasl -kernel inet_default_connect_options [{nodelay,true}] -sasl errlog_type error -sasl sasl_error_logger false -rabbit error_logger {file,"/var/log/rabbitmq/rabbit@141fbed8ed36.log"} -rabbit sasl_error_logger {file,"/var/log/rabbitmq/rabbit@141fbed8ed36-sasl.log"} -rabbit enabled_plugins_file "/etc/rabbitmq/enabled_plugins" -rabbit plugins_dir "/usr/lib/rabbitmq/plugins:/usr/lib/rabbitmq/lib/rabbitmq_server-3.6.10/plugins" -rabbit plugins_expand_dir "/var/lib/rabbitmq/mnesia/rabbit@141fbed8ed36-plugins-expand" -os_mon start_cpu_sup false -os_mon start_disksup false -os_mon start_memsup false -mnesia dir "/var/lib/rabbitmq/mnesia/rabbit@141fbed8ed36" -kernel inet_dist_listen_min 25672 -kernel inet_dist_listen_max 25672
+message+ 13385  0.0  0.0   4516  1632 ?        Ss   jan21  13:12 erl_child_setup 1048576
+root     13456  0.0  0.0  96804 29840 ?        S    ago31   0:00 /usr/bin/perl /usr/share/webmin/miniserv.pl /etc/webmin/miniserv.conf
+root     13562  0.0  0.0  96804 29608 ?        S    set01   0:00 /usr/bin/perl /usr/share/webmin/miniserv.pl /etc/webmin/miniserv.conf
+root     13668  0.0  0.0  96672 30092 ?        S    jun29   0:00 /usr/bin/perl /usr/share/webmin/miniserv.pl /etc/webmin/miniserv.conf
+root     13765  0.0  0.0      0     0 ?        S    17:33   0:00 [kworker/u16:2]
+www-data 14012 57.0  0.5 680588 170068 ?       S    17:34  17:33 php-fpm: pool www
+root     14406  0.0  0.0  96540 28752 ?        S    mai08   0:00 /usr/bin/perl /usr/share/webmin/miniserv.pl /etc/webmin/miniserv.conf
+message+ 14757  0.0  0.0   8260  1168 ?        Ss   jan21   1:12 inet_gethost 4
+message+ 14760  0.0  0.0  10380  1688 ?        S    jan21   1:15 inet_gethost 4
+www-data 15800  0.0  0.0 4145904 4996 ?        Sl   ago30   4:04 ./cron.php -e0.0.0.0 -p16314
+systemd+ 16052  0.0  0.0 320540 26852 ?        S    ago19   1:12 /usr/lib/postgresql/10/bin/postgres -D /var/lib/postgresql/10/main -c config_file=/etc/postgresql/10/main/postgresql.conf
+systemd+ 16054  0.0  0.0 320648  6084 ?        Ss   ago19   0:02 postgres: 10/main: checkpointer process   
+systemd+ 16055  0.0  0.0 320540  4240 ?        Ss   ago19   0:29 postgres: 10/main: writer process   
+systemd+ 16056  0.0  0.0 320540  9024 ?        Ss   ago19   0:29 postgres: 10/main: wal writer process   
+systemd+ 16057  0.0  0.0 321084  7384 ?        Ss   ago19   0:44 postgres: 10/main: autovacuum launcher process   
+systemd+ 16058  0.0  0.0 175588  3600 ?        Ss   ago19   1:35 postgres: 10/main: stats collector process   
+systemd+ 16059  0.0  0.0 320848  4960 ?        Ss   ago19   0:04 postgres: 10/main: bgworker: logical replication launcher   
+root     16065  0.0  0.0      0     0 ?        S    17:44   0:00 [kworker/2:1]
+root     16175  0.0  0.0      0     0 ?        S    17:45   0:00 [kworker/5:1]
+root     16423  0.0  0.0      0     0 ?        S    17:47   0:00 [kworker/4:1]
+root     16697  0.0  0.0      0     0 ?        S    17:48   0:00 [kworker/3:1]
+www-data 16718  0.7  0.3 627348 118920 ?       S    set05  12:58 php-fpm: pool www
+root     16871  0.0  0.0  96816 30124 ?        S    ago09   0:00 /usr/bin/perl /usr/share/webmin/miniserv.pl /etc/webmin/miniserv.conf
+root     16875  0.0  0.0      0     0 ?        S    17:49   0:00 [kworker/1:2]
+root     16923  0.0  0.0  69956  6192 ?        Ss   jan21   5:07 /usr/sbin/sshd -D
+root     16948  0.0  0.0  96672 30104 ?        S    jul24   0:00 /usr/bin/perl /usr/share/webmin/miniserv.pl /etc/webmin/miniserv.conf
+root     16980  0.0  0.0      0     0 ?        S    17:50   0:00 [kworker/6:2]
+root     17155  0.0  0.0      0     0 ?        S    17:51   0:00 [kworker/0:1]
+root     17249  0.0  0.0      0     0 ?        S    17:52   0:00 [kworker/5:0]
+root     17504  0.0  0.0      0     0 ?        S    17:53   0:00 [kworker/1:3]
+root     17527  0.0  0.0  99352  7024 ?        Ss   17:53   0:00 sshd: root@pts/1
+root     17540  0.0  0.0  20112  3932 pts/1    Ss   17:53   0:00 -bash
+root     17564  0.0  0.0      0     0 ?        S    17:53   0:00 [kworker/4:0]
+root     17595  0.0  0.0      0     0 ?        S    17:53   0:00 [kworker/u16:0]
+www-data 17621  0.0  0.0 558424 13716 ?        S    17:53   0:00 /usr/sbin/apache2 -k start
+root     17827  0.0  0.0  96408 29540 ?        S    mar13   0:00 /usr/bin/perl /usr/share/webmin/miniserv.pl /etc/webmin/miniserv.conf
+root     17953  0.0  0.0      0     0 ?        S    17:55   0:00 [kworker/3:0]
+root     17974  0.0  0.0      0     0 ?        S    17:55   0:00 [kworker/7:2]
+root     18033  0.0  0.0      0     0 ?        S    17:56   0:00 [kworker/6:1]
+www-data 18169  0.0  0.0 558452 13404 ?        S    17:57   0:00 /usr/sbin/apache2 -k start
+root     18210  0.0  0.0      0     0 ?        S    17:57   0:00 [kworker/0:2]
+root     18211  0.0  0.0      0     0 ?        S    17:57   0:00 [kworker/2:0]
+www-data 18533  0.0  0.0 558420 13572 ?        S    17:59   0:00 /usr/sbin/apache2 -k start
+www-data 18536  0.0  0.0 558412 13572 ?        S    17:59   0:00 /usr/sbin/apache2 -k start
+www-data 18637  0.0  0.0 558612 14452 ?        S    17:59   0:00 /usr/sbin/apache2 -k start
+www-data 18639  0.0  0.0 558612 15236 ?        S    17:59   0:00 /usr/sbin/apache2 -k start
+www-data 18641  0.0  0.0 558452 13452 ?        S    17:59   0:00 /usr/sbin/apache2 -k start
+root     18693  0.0  0.0      0     0 ?        S    18:00   0:00 [kworker/1:0]
+root     18797  0.0  0.0      0     0 ?        S    18:00   0:00 [kworker/u16:1]
+www-data 18823 61.2  0.9 793132 288832 ?       R    18:00   2:36 php-fpm: pool www
+root     18834  0.0  0.0      0     0 ?        S    18:00   0:00 [kworker/3:2]
+www-data 18880  0.0  0.0 558452 13748 ?        S    18:00   0:00 /usr/sbin/apache2 -k start
+www-data 18975  0.0  0.0 558452 13404 ?        S    18:01   0:00 /usr/sbin/apache2 -k start
+www-data 19028  0.0  0.0 558452 13744 ?        S    18:01   0:00 /usr/sbin/apache2 -k start
+www-data 19155  0.0  0.0 558452 13404 ?        S    18:02   0:00 /usr/sbin/apache2 -k start
+www-data 19243  0.0  0.0      0     0 ?        Z    18:02   0:00 [apache2] <defunct>
+root     19278  0.0  0.0      0     0 ?        S    18:02   0:00 [kworker/7:1]
+www-data 19417  0.0  0.0 558412 13572 ?        S    18:02   0:00 /usr/sbin/apache2 -k start
+www-data 19421  0.0  0.0 558452 13660 ?        S    18:03   0:00 /usr/sbin/apache2 -k start
+root     19435  0.0  0.0      0     0 ?        S    18:03   0:00 [kworker/0:0]
+www-data 19501  0.0  0.0 558412 13564 ?        S    18:03   0:00 /usr/sbin/apache2 -k start
+www-data 19520  0.0  0.0 558452 13460 ?        S    18:03   0:00 /usr/sbin/apache2 -k start
+www-data 19525  0.0  0.0 558368 13448 ?        S    18:03   0:00 /usr/sbin/apache2 -k start
+www-data 19529  0.0  0.0 558412 13548 ?        S    18:03   0:00 /usr/sbin/apache2 -k start
+www-data 19530  0.0  0.0 558424 13456 ?        S    18:03   0:00 /usr/sbin/apache2 -k start
+www-data 19587  0.0  0.0 558412 13604 ?        S    18:03   0:00 /usr/sbin/apache2 -k start
+www-data 19658  0.0  0.0 558452 13404 ?        S    18:03   0:00 /usr/sbin/apache2 -k start
+www-data 19664  0.0  0.0 558412 13572 ?        S    18:03   0:00 /usr/sbin/apache2 -k start
+www-data 19670  0.0  0.0 558452 13404 ?        S    18:03   0:00 /usr/sbin/apache2 -k start
+www-data 19690  0.0  0.0 558368 13552 ?        S    18:03   0:00 /usr/sbin/apache2 -k start
+www-data 19696  0.0  0.0 558420 13572 ?        S    18:03   0:00 /usr/sbin/apache2 -k start
+www-data 19699  0.0  0.0 558368 13404 ?        S    18:03   0:00 /usr/sbin/apache2 -k start
+root     20354  0.0  0.0  96540 28664 ?        S    mai10   0:00 /usr/bin/perl /usr/share/webmin/miniserv.pl /etc/webmin/miniserv.conf
+www-data 20367  0.0  0.0 558368 13404 ?        S    18:04   0:00 /usr/sbin/apache2 -k start
+root     20371  0.0  0.0      0     0 ?        S    18:04   0:00 [kworker/2:2]
+www-data 20378  0.0  0.0 558412 13568 ?        S    18:04   0:00 /usr/sbin/apache2 -k start
+www-data 20380  0.0  0.0 558368 13592 ?        S    18:04   0:00 /usr/sbin/apache2 -k start
+www-data 20385  0.0  0.0 558412 13572 ?        S    18:04   0:00 /usr/sbin/apache2 -k start
+www-data 20386  0.0  0.0 558368 13404 ?        S    18:04   0:00 /usr/sbin/apache2 -k start
+www-data 20388  0.0  0.0 558368 13460 ?        S    18:04   0:00 /usr/sbin/apache2 -k start
+www-data 20389  0.0  0.0 558368 13452 ?        S    18:04   0:00 /usr/sbin/apache2 -k start
+www-data 20392  0.0  0.0 558368 13452 ?        S    18:04   0:00 /usr/sbin/apache2 -k start
+root     20486  0.0  0.0      0     0 ?        S    18:04   0:00 [kworker/4:2]
+metabase 20487  196  2.0 11572092 625332 ?     Ssl  18:04   0:41 /usr/bin/java -jar /opt/metabase/metabase.jar
+www-data 20522  0.0  0.0 558368 13404 ?        S    18:04   0:00 /usr/sbin/apache2 -k start
+www-data 20531  0.0  0.0 558368 13452 ?        S    18:04   0:00 /usr/sbin/apache2 -k start
+www-data 20532  0.0  0.0 558368 13404 ?        S    18:04   0:00 /usr/sbin/apache2 -k start
+www-data 20562  0.0  0.0 558368 13404 ?        S    18:04   0:00 /usr/sbin/apache2 -k start
+www-data 20567  0.0  0.0 557964 12456 ?        S    18:04   0:00 /usr/sbin/apache2 -k start
+www-data 20568  0.0  0.0 557964 12456 ?        S    18:04   0:00 /usr/sbin/apache2 -k start
+www-data 20572  0.0  0.0 557948 12456 ?        S    18:05   0:00 /usr/sbin/apache2 -k start
+www-data 20573  0.0  0.0 557964 12456 ?        S    18:05   0:00 /usr/sbin/apache2 -k start
+www-data 20575  0.0  0.0 557964 12456 ?        S    18:05   0:00 /usr/sbin/apache2 -k start
+root     20589  0.0  0.0  38236  3172 pts/1    R+   18:05   0:00 ps aux
+mysql    21251  1.8  0.8 790172 257688 ?       Ssl  jan26 5871:05 /usr/sbin/mysqld
+root     21460  0.0  0.1 498460 35016 ?        Ss   jan21  29:51 php-fpm: master process (/etc/php/7.2/fpm/php-fpm.conf)
+root     21678  0.0  0.0  96672 30096 ?        S    jul29   0:00 /usr/bin/perl /usr/share/webmin/miniserv.pl /etc/webmin/miniserv.conf
+root     22467  0.0  0.0 286116  6176 ?        Ssl  jan26   0:06 /usr/lib/policykit-1/polkitd --no-debug
+root     23172  0.0  0.0  96408 29748 ?        S    fev09   0:00 /usr/bin/perl /usr/share/webmin/miniserv.pl /etc/webmin/miniserv.conf
+root     23386  0.0  0.0  96276 27848 ?        S    jan29   0:00 /usr/bin/perl /usr/share/webmin/miniserv.pl /etc/webmin/miniserv.conf
+root     24381  0.0  0.0  35924  1900 ?        Ss   jan21  14:04 /usr/sbin/irqbalance --foreground
+root     24394  0.0  0.0  96408 29464 ?        S    mar09   0:00 /usr/bin/perl /usr/share/webmin/miniserv.pl /etc/webmin/miniserv.conf
+root     25328  0.0  0.0   6208   844 pts/0    S+   jan21   0:00 tail -f /var/log/onlyoffice/documentserver/converter/err.log /var/log/onlyoffice/documentserver/converter/out.log /var/log/onlyoffice/documentserver/docservice/err.log /var/log/onlyoffice/documentserver/docservice/out.log /var/log/onlyoffice/documentserver/metrics/err.log /var/log/onlyoffice/documentserver/metrics/out.log /var/log/onlyoffice/documentserver/nginx.error.log /var/log/onlyoffice/documentserver/spellchecker/err.log /var/log/onlyoffice/documentserver/spellchecker/out.log
+root     26983  0.0  0.0  96684 30308 ?        S    mai11   0:00 /usr/bin/perl /usr/share/webmin/miniserv.pl /etc/webmin/miniserv.conf
+root     27772  0.0  0.0  96808 29892 ?        S    ago25   0:00 /usr/bin/perl /usr/share/webmin/miniserv.pl /etc/webmin/miniserv.conf
+root     28187  0.0  0.0  96804 29724 ?        S    ago30   0:00 /usr/bin/perl /usr/share/webmin/miniserv.pl /etc/webmin/miniserv.conf
+root     28646  0.4  0.1 988204 47972 ?        Ssl  jan21 1397:56 /usr/bin/containerd
+www-data 28877  0.0  1.4 677060 455048 ?       S    ago30   0:02 nginx: worker process
+root     30380  0.0  0.0  96408 29640 ?        S    fev27   0:00 /usr/bin/perl /usr/share/webmin/miniserv.pl /etc/webmin/miniserv.conf
+root     30968  0.0  0.0  96544 29116 ?        S    abr09   0:00 /usr/bin/perl /usr/share/webmin/miniserv.pl /etc/webmin/miniserv.conf
+root     31035  0.0  0.0  96540 29212 ?        S    mar27   0:00 /usr/bin/perl /usr/share/webmin/miniserv.pl /etc/webmin/miniserv.conf
+root     31387  0.0  0.0  96680 28180 ?        S    jun07   0:00 /usr/bin/perl /usr/share/webmin/miniserv.pl /etc/webmin/miniserv.conf
+root     31587  0.0  0.0  96544 30304 ?        S    abr12   0:00 /usr/bin/perl /usr/share/webmin/miniserv.pl /etc/webmin/miniserv.conf
+root     31608  0.0  0.0  96544 30308 ?        S    abr12   0:00 /usr/bin/perl /usr/share/webmin/miniserv.pl /etc/webmin/miniserv.conf
+root     31673  0.0  0.0  96544 30308 ?        S    abr12   0:00 /usr/bin/perl /usr/share/webmin/miniserv.pl /etc/webmin/miniserv.conf
