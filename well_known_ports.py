@@ -1,5 +1,5 @@
 def print_well_known_ports():
-    print("\nWell-Known Ports (0-1023):\n")
+    print(f"\nWell-Known Ports (last updated in 02/28/2024):\n")
     for port, service in well_known_ports.items():
         print(f"Port: {port}\tService: {service}")
 

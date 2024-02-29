@@ -1,5 +1,5 @@
 from scanner import scan_ports
-from well_known_ports import print_well_known_ports
+from well_known_ports import *
 import os
 
 default_host = "localhost"
@@ -36,7 +36,10 @@ def main():
     if open_ports:
         print(f"\n\nThe following ports are open on {host}:\n")
         for port in open_ports:
-            print(f"Port {port} is open.")
+            if port in well_known_ports:
+                print(f"Port {port} is open - Known port for {well_known_ports[port]}")
+            else:
+                print(f"Port {port} is open.")
     else:
         print(f"\nNo open ports found on {host} in the specified range.")
     print("\n")
