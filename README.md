@@ -44,10 +44,10 @@ This is a simple Python port scanner application that allows users to scan TCP p
     python main.py
     ```
 
-2. Follow the prompts to specify the host or IP address to scan, as well as the port range.
+2. Follow the prompts to specify the host or IP address to scan, as well as the port range
 
-3. View the results, including open ports and their corresponding geolocation information.
+3. View the results, including open ports and the corresponding geolocation information of the host
 
 ## Contributing
 
-Contributions are welcome! If you find any bugs or have suggestions for improvements, feel free to open an issue or submit a pull request.
+Contributions are welcome! If you find any bugs or have suggestions for improvements, feel free to open an issue or submit a pull request
