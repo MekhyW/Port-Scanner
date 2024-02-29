@@ -14,6 +14,7 @@ This is a simple Python port scanner application that allows users to scan TCP p
 
 - Python 3.x
 - `geoip2` library for geolocation
+- `colorama` library for colored text
 
 ## Installation
 

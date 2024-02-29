@@ -1,7 +1,10 @@
+from colorama import Style
+
 def print_well_known_ports():
-    print(f"\nWell-Known Ports (last updated in 02/28/2024):\n")
+    print(f"{Style.DIM}\nWell-Known Ports (last updated in 02/28/2024):\n")
     for port, service in well_known_ports.items():
         print(f"Port: {port}\tService: {service}")
+    print(f"{Style.RESET_ALL}")
 
 well_known_ports = {
     7: "Echo",
