@@ -1,4 +1,5 @@
 from scanner import scan_ports
+from geolocation import get_geolocation
 from well_known_ports import *
 import os
 
@@ -33,13 +34,18 @@ def main():
     open_ports = scan_ports(host, start_port, end_port)
     clear_terminal()
     print_well_known_ports()
+    country, city, latitude, longitude = get_geolocation(host)
+    if any([country, city, latitude, longitude]):
+        print(f"\n\nHost {host} located at ({latitude},{longitude}) - {city}, {country}")
+    else:
+        print(f"\n\nHost {host} (unknown location)")
     if open_ports:
-        print(f"\n\nThe following ports are open on {host}:\n")
+        print(f"\nThe following ports are open:")
         for port in open_ports:
             if port in well_known_ports:
-                print(f"Port {port} is open - Known port for {well_known_ports[port]}")
+                print(f"• Port {port} is open - Known port for {well_known_ports[port]}")
             else:
-                print(f"Port {port} is open.")
+                print(f"• Port {port} is open.")
     else:
         print(f"\nNo open ports found on {host} in the specified range.")
     print("\n")
